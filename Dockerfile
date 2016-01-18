@@ -10,4 +10,5 @@ RUN chmod +x /usr/bin/install_and_run_aurelia_skeleton.sh
 # replace this with your application's default port
 EXPOSE 9000
 WORKDIR /src
+VOLUME /src/skeleton-es2016
 CMD /usr/bin/install_and_run_aurelia_skeleton.sh
