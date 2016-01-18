@@ -1,7 +1,6 @@
 #!/bin/sh
 
-git clone https://github.com/aurelia/skeleton-navigation /tmp/skeleton-navigation
-cp /tmp/skeleton-navigation/skeleton-es2016 /src
+git clone https://github.com/aurelia/skeleton-navigation/skeleton-es2016 /src
 cd /src
 npm install -y
 npm install gulp
